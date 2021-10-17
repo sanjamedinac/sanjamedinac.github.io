@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+  font-family: "Tahoma", sans-serif;
+  background-color: #f7f2ee;
+  margin-left: 5%;
+}
+h3 {
+  color: #beab9d;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+h6 {
+  color: #6e6a67;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+}
+.btn-primary,
+.btn-primary:active,
+.btn-primary-outline {
+  background-color: #ceac91 !important;
+  border-color: #ceac91;
+}
