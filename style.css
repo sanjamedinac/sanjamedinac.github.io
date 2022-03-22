@@ -26,7 +26,16 @@ p {
   background-color: #ceac91 !important;
   border-color: #ceac91;
 }
-
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .contact-box {
   width: 500px;
   background-color: #f7f2ee;
@@ -38,6 +47,9 @@ p {
 }
 form {
   margin: 35px;
+}
+.contact-info {
+  background-color: #000000;
 }
 .input-field {
   width: 400px;
